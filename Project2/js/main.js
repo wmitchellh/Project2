@@ -4,9 +4,7 @@ $(document).ready(function(){
   $(".main").onepage_scroll();
 
   $('#quiz').quiz({
-  //resultsScreen: '#results-screen',
-  //counter: false,
-  //homeButton: '#custom-home',
+
   counterFormat: 'Question %current of %total',
   questions: [
     {
@@ -39,18 +37,19 @@ $(document).ready(function(){
       ],
       'correctIndex': 1,
       'correctResponse': 'Correct! He is second to Pete Rose',
-      'incorrectResponse': 'Not quite'
+      'incorrectResponse': 'Not quite, he is second to Pete Rose'
     },
     {
-      'q': 'How do you specify the questions and answers?',
+      'q': 'In 2019, Ichiro retired at what age?',
       'options': [
-        'MySQL database',
-        'In the HTML',
-        'In the javascript configuration'
+        '39',
+        '44',
+        '45',
+        '47'
       ],
       'correctIndex': 2,
-      'correctResponse': 'Correct! Refer to the documentation for the structure.',
-      'incorrectResponse': 'Wrong! Do it in the javascript configuration. You might need to read the documentation.'
+      'correctResponse': 'Correct! The second oldest position player to start on opening day',
+      'incorrectResponse': 'Incorrect'
     }
   ]
 });
