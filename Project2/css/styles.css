@@ -1,0 +1,66 @@
+.ichiro1 {
+position: absolute;
+bottom: 0px;
+right: 70px;
+height: 650px;
+width: auto;
+}
+
+.ichiro2 {
+position: absolute;
+bottom: 0px;
+left: 30px;
+height: 650px;
+width: auto;
+}
+
+.ichiro3 {
+position: absolute;
+bottom: 0px;
+right: 70px;
+height: 300px;
+width: auto;
+}
+
+h2 {
+  position: absolute;
+  left: 25px;
+  color: #002C56;
+  font-size: 24pt;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #005C5C;
+}
+
+li:not(:last-child) {
+    margin-bottom: 50px
+}
+
+.slide1 {
+  position: absolute;
+  top: 70px;
+  left: 25px;
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+.slide2 {
+  position: absolute;
+  right: 140px;
+  top: 100px;
+  align: right;
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+
+.header2 {
+  position: absolute;
+  right: 580px;
+  color: #002C56;
+  font-size: 36pt;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #005C5C;
+}
+
+section {
+  background-color: #C4CED4;
+}
